@@ -1,0 +1,23 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.citusdata.com/download/ and https://github.com/citusdata
+note: >-
+  Citus is a PostgreSQL extension, not an HTTP API, so it ships no language client
+  SDKs. Its first-party distribution is the extension itself (apt/yum packages built
+  from the citusdata/packaging repo) and an official Docker image. Applications connect
+  using any standard PostgreSQL driver over the Postgres wire protocol.
+packages:
+- language: docker
+  registry: docker-hub
+  name: citusdata/citus
+  url: https://hub.docker.com/r/citusdata/citus
+  install: docker pull citusdata/citus
+  official: true
+  description: Official Citus distributed PostgreSQL Docker image.
+- language: sql-extension
+  registry: apt-yum
+  name: postgresql-XX-citus
+  url: https://www.citusdata.com/download/
+  install: curl https://install.citusdata.com/community/deb.sh | sudo bash
+  official: true
+  description: Citus PostgreSQL extension packages for Debian/Ubuntu (deb) and RHEL/CentOS (rpm).

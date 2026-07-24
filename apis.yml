@@ -1,7 +1,28 @@
 aid: citus-data
 name: Citus Data
-description: Citus Data is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Citus Data is the company behind Citus, an open source extension that turns PostgreSQL
+  into a distributed database. Rather than forking Postgres, Citus adds sharding, distributed
+  tables, reference tables, and a distributed query planner so applications can scale out
+  across many nodes while keeping full SQL, ACID transactions, and the entire Postgres
+  ecosystem. It is used for multi-tenant SaaS applications, real-time analytics dashboards,
+  and microservices architectures. Founded in San Francisco and acquired by Microsoft in
+  2019, Citus is developed in the open on GitHub and is also offered as a managed cloud
+  service (Azure Cosmos DB for PostgreSQL); its reference documentation is hosted on
+  Microsoft Learn. Citus is consumed over the standard PostgreSQL wire protocol and SQL,
+  so it exposes no REST/HTTP API, no OAuth surface, and no language SDKs of its own.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/u/2545424?s=200&v=4
 url: https://raw.githubusercontent.com/api-evangelist/citus-data/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,58 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- PostgreSQL
+- Database
+- Distributed Database
+- Sharding
+- Open Source
+- Scalability
+- Analytics
+- Microsoft
 apis: []
+common:
+- type: DomainSecurity
+  url: security/citus-data-domain-security.yml
+- type: Website
+  url: https://www.citusdata.com/
+  name: Citus Data
+- type: Documentation
+  url: https://learn.microsoft.com/postgresql/citus/
+  name: Citus Documentation (Microsoft Learn)
+- type: DeveloperPortal
+  url: https://www.citusdata.com/product/
+  name: Citus Product
+- type: GettingStarted
+  url: https://www.citusdata.com/getting-started/
+  name: Getting Started with Citus
+- type: GitHubOrganization
+  url: https://github.com/citusdata
+  name: citusdata on GitHub
+- type: Blog
+  url: https://www.citusdata.com/blog/
+  name: Citus Data Blog
+- type: Support
+  url: https://www.citusdata.com/support
+  name: Citus Support
+- type: ChangeLog
+  url: https://github.com/citusdata/citus/blob/main/CHANGELOG.md
+  name: Citus CHANGELOG
+- type: Download
+  url: https://www.citusdata.com/download/
+  name: Download Citus
+- type: Packages
+  url: packages/citus-data-packages.yml
+  name: Citus distribution packages
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
