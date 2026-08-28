@@ -11,6 +11,17 @@ description: >-
   service (Azure Cosmos DB for PostgreSQL); its reference documentation is hosted on
   Microsoft Learn. Citus is consumed over the standard PostgreSQL wire protocol and SQL,
   so it exposes no REST/HTTP API, no OAuth surface, and no language SDKs of its own.
+deliveryModel:
+  model: library
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Library · distributed through package registries, no callable service
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
