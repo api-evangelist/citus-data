@@ -66,6 +66,11 @@ tags_raw:
 - Microsoft
 apis: []
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/microsoft/
+  name: Microsoft
+  x-relationship: acquired
+  x-evidence: "Founded in San Francisco and acquired by Microsoft in 2019, Citus is developed in the open on GitHub and is also offered as a managed cloud service (Azure Cosmos DB for PostgreSQL); its reference documentation is hosted on Microsoft Learn."
 - type: DomainSecurity
   url: security/citus-data-domain-security.yml
 - type: Website
