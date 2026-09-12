@@ -1,5 +1,6 @@
 aid: citus-data
 name: Citus Data
+x-parent: microsoft
 description: >-
   Citus Data is the company behind Citus, an open source extension that turns PostgreSQL
   into a distributed database. Rather than forking Postgres, Citus adds sharding, distributed
