@@ -51,7 +51,7 @@ tags:
 - Database
 - Distributed Database
 - Sharding
-- Open-Source
+- Open Source
 - Scalability
 - Analytics
 - Microsoft
@@ -65,6 +65,7 @@ tags_raw:
 - Scalability
 - Analytics
 - Microsoft
+- Open-Source
 apis: []
 common:
 - type: ParentCompany
