@@ -1,0 +1,12 @@
+fetched: '2026-10-13'
+method: fetched
+source: https://raw.githubusercontent.com/citusdata/citus/main/README.md
+page: https://raw.githubusercontent.com/citusdata/citus/main/README.md
+file: citus-data-postgres-wire-1.md
+bytes: 34385
+sha256: 3490809908a7421e96e93f19118027ac7aca29cec0c957d59dc92d714c2940ae
+anchor: postgresql
+shape: postgres-wire
+classification: no-compatibility-statement
+quote: null
+note: text extracted from the provider's own page (tags stripped), saved for evidence

@@ -1,0 +1,19 @@
+edges:
+- partner_name: PostgreSQL
+  partner: postgresql
+  partner_match: shape-anchor
+  channel: provider-built
+  relationship: compatible
+  direction: provider-built
+  shape: postgres-wire
+  type: docs
+  degree: full
+  evidence: https://raw.githubusercontent.com/citusdata/citus/main/README.md
+  evidence_kind: own-docs
+  evidence_file: https://github.com/api-evangelist/citus-data/blob/main/evidence/compatibility/citus-data-postgres-wire-1.md
+  quote: Citus is a [PostgreSQL extension](https://www.citusdata.com/blog/2017/10/25/what-it-means-to-be-a-postgresql-extension/)
+    that transforms Postgres into a distributed database—so you can achieve high performance at any scale.
+  detected_by: sweep-shape-compat.py
+  first_seen: '2026-10-13'
+generated: '2026-10-13'
+method: searched
